@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+.data label {
+  font-weight: 600;
+  font-size: larger;
+  margin-left: 1.5rem;
+}
+label,
+input,
+button {
+  margin: 5px;
+}
+.bt {
+  border: 1px solid rgb(216, 216, 216);
+}
+.box {
+  width: 500px;
+  height: 300px;
+  border: 2px solid red;
+  margin: 15px;
+  margin-top: 5px;
+}
+.skill-container {
+  display: inline-block;
+  background-color: black;
+  margin: 4px;
+}
+.skill-name {
+  color: white;
+  padding-left: 10px;
+  font-family: Calibri;
+  font-size: 25px;
+}
+.remove {
+  color: red;
+  font-weight: bolder;
+  background-color: transparent;
+  border: 0;
+  font-size: 20px;
+  height: 10px;
+}
