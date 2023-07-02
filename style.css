@@ -3,6 +3,9 @@
 *::before {
   box-sizing: border-box;
 }
+body {
+  height: 100vh;
+}
 .data label {
   font-weight: 600;
   font-size: larger;
